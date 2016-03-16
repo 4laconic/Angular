@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Curriency Converter</title>
+  <base href="/angular/views/">
+</head>
+<body>
+  <div>
+    <div ng-controller="MainController">
+      <nav><a href="/currency">Currency</a></nav>
+      <div>
+        <input ng-model="word"/>
+        <p>{{ word | customFilter }}</p>
+      </div>
+      <br>
+      <button type='button'>Press</button>
+    </div>
+  </div>
+  <script src="/angular/javascript/angular.min.js"></script>
+  <script src="/angular/javascript/angular-route.min.js"></script>
+  <script src="/angular/javascript/app.js"></script>
+<!-- <script src="/angular/javascript/services.js"></script>
+  <script src="/angular/javascript/configs.js"></script>  
+  <script src="/angular/javascript/controllers.js"></script>
+  <script src="/angular/javascript/directives.js"></script>
+  <script src="/angular/javascript/filters.js"></script> -->
+</body>
+</html>
+
+
+
+
