@@ -10,7 +10,7 @@ var app = angular.module('myApp', ['ngRoute'])
     }
 });
 app.controller('MainController', function($scope, $route) {
-
+//comment
 });
 app.config(['$routeProvider', '$locationProvider',
   function($routeProvider, $locationProvider) {
